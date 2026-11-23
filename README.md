@@ -87,7 +87,7 @@ One model and one dataset. Weights only: activations and the KV cache are not qu
 
 ## Elsewhere
 
-The same files are on Hugging Face: https://huggingface.co/datasets/Amiralherani/mxfp4-scale-gpt2
+The same files are on Hugging Face at https://huggingface.co/datasets/Amiralherani/mxfp4-scale-gpt2, and there is a Kaggle notebook that runs the whole thing in the browser: https://www.kaggle.com/code/amiralherani/does-the-mxfp4-block-scale-matter-gpt-2
 
 ## Contact
 
