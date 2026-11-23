@@ -1,5 +1,7 @@
 # Does the MXFP4 block scale matter on a real model?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24476595.svg)](https://doi.org/10.5281/zenodo.24476595)
+
 MXFP4 stores 32 values in 4 bits each, plus one power-of-two scale shared by the whole block. The OCP Microscaling spec (v1.1, section 6.3) gives an example rule for picking that scale, which is to put the largest element of the block in the top binade, and it says other rules are allowed.
 
 I wanted to know how much the example rule leaves on the table, measured on a real network and not on Gaussian noise. So I quantised the weights of GPT-2 (124M) to MXFP4 twice:
@@ -88,6 +90,10 @@ One model and one dataset. Weights only: activations and the KV cache are not qu
 ## Elsewhere
 
 The same files are on Hugging Face at https://huggingface.co/datasets/Amiralherani/mxfp4-scale-gpt2, and there is a Kaggle notebook that runs the whole thing in the browser: https://www.kaggle.com/code/amiralherani/does-the-mxfp4-block-scale-matter-gpt-2
+
+## Citing
+
+Al-Herani, A. (2026). *Does the MXFP4 block scale matter on a real model?* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.24476595
 
 ## Contact
 
