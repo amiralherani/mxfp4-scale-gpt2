@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Does the MXFP4 block scale matter on a real model? GPT-2, measured"
+type: software
+authors:
+  - family-names: Al-Herani
+    given-names: Amir
+    orcid: "https://orcid.org/0009-0003-4962-3604"
+version: 1.0.0
+date-released: 2026-11-23
+license: Apache-2.0
+repository-code: "https://github.com/amiralherani/mxfp4-scale-gpt2"
+abstract: >-
+  Weight error and WikiText-2 perplexity of GPT-2 (124M) quantised to MXFP4 with the OCP MX example scale rule and with the per-block best of three scales. Encoder, run script and raw per-window results.
+keywords:
+  - quantization
+  - OCP Microscaling
+  - MXFP4
+  - GPT-2
+  - perplexity
