@@ -1,0 +1,47 @@
+{
+ "meta": {
+  "windows": 280,
+  "tokens_per_window": 1023,
+  "total_tokens_in_split": 287644,
+  "provenance": {
+   "run_gpt2.py": "5ee5063419868dd66d3e70a9a76f1254f92c64aaa6ffc659e73a9296a2594b64",
+   "mxfp4.py": "03e21b5b7de8d7778f409e23f85eab461d876e4c726f56d31fb7d8f7308257ba",
+   "python": "3.13.14",
+   "numpy": "2.5.5",
+   "torch": "2.15.0+cpu",
+   "transformers": "5.24.0",
+   "model": "openai-community/gpt2",
+   "dataset": "Salesforce/wikitext/wikitext-2-raw-v1/test",
+   "seed": 20261122
+  }
+ },
+ "ppl": {
+  "FP32": 29.951054202612475,
+  "blocks:SPEC": 34.7210029985793,
+  "blocks:BEST": 34.72521390746066,
+  "blocks+embeddings:SPEC": 63.29083739920185,
+  "blocks+embeddings:BEST": 60.345732947662455
+ },
+ "best_vs_spec": {
+  "blocks": {
+   "delta_nll_per_token": 0.00012127108067567138,
+   "ci95": [
+    -0.0013967462845708518,
+    0.0016126240270819975
+   ],
+   "windows_best_is_better": 141,
+   "windows": 280,
+   "ppl_damage_removed_pct": -0.0882799598377714
+  },
+  "blocks+embeddings": {
+   "delta_nll_per_token": -0.04765032989400062,
+   "ci95": [
+    -0.053389114582080927,
+    -0.042026166296968835
+   ],
+   "windows_best_is_better": 248,
+   "windows": 280,
+   "ppl_damage_removed_pct": 8.833604088465322
+  }
+ }
+}
